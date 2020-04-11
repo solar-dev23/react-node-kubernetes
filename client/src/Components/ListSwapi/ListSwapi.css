@@ -1,0 +1,9 @@
+.custom-table header {
+  display: none;
+}
+
+.custom-table .rdt_TableBody .rdt_TableRow:nth-child(2n + 1) {
+  background-color: #f2f2f2;
+}
+
+

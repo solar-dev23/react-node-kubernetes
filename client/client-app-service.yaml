@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: swapi-client-service
+spec:
+  selector:
+    app: swapi-client-app
+  ports:
+  - port: 80
+    targetPort: 80
+  type: LoadBalancer
